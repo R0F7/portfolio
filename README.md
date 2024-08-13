@@ -1,8 +1,14 @@
-# React + Vite
+##  Live Link: [Rakibul's Web Wonders (Portfolio)](https://rakibuls-web-wonders.netlify.app)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🛠️ Technologies Used :
+- React
+- react-dom/client
+- TailwindCSS
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Resources:
+- [React-Icons](https://react-icons.github.io/react-icons/search/#q=twi)
+- [react-simple-typewriter](react-simple-typewriter.vercel.app/)
+- [aos](https://michalsnik.github.io/aos/)
+- [Emailjs](https://www.emailjs.com/)
+- [react-hot-toast](https://react-hot-toast.com/)

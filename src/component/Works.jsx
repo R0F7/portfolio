@@ -1,7 +1,8 @@
-// import { GiDrippingStar } from "react-icons/gi";
-
 import { FaArrowRight } from "react-icons/fa";
 import { GiDrippingStar } from "react-icons/gi";
+import MuseCorner from "../../public/MuseCorner.png";
+import motionmax from "../../public/motionmax.png";
+import TravelWish from "../../public/TravelWish.png";
 
 const Works = () => {
     return (
@@ -14,7 +15,7 @@ const Works = () => {
 
                 <div className="border p-6 shadow rounded-tr-3xl rounded-bl-3xl lg:skew-y-6 hover:skew-y-0 transition-transform duration-1000 hover:scale-105">
                     <div className="w-full">
-                        <img className="lg:h-[260px]" src="../../public/MuseCorner.png" alt="" />
+                        <img className="lg:h-[260px]" src={MuseCorner} alt="" />
                     </div>
                     <div>
                         <h1 className="text-2xl font-bold mt-4 mb-1">MuseCorner</h1>
@@ -95,7 +96,7 @@ const Works = () => {
                                         </div>
                                     </div>
                                     <div className=" flex items-center">
-                                        <img src="../../public/MuseCorner.png" alt="" />
+                                        <img src={MuseCorner} alt="" />
                                     </div>
                                 </div>
                             </div>
@@ -109,7 +110,7 @@ const Works = () => {
                 {/* project 2 */}
                 <div className=" border p-6 shadow rounded-2xl kew-y-6 lg:translate-y-8 hover:skew-y-0 lg:hover:rotate-[360deg] transition-transform duration-1000 hover:scale-105">
                     <div className=" w-full">
-                        <img className="" src="../../public/motionmax.png" alt="" />
+                        <img className="" src={motionmax} alt="" />
                     </div>
                     <div>
                         <h1 className="text-2xl font-bold mt-4 mb-1">MotionMax</h1>
@@ -197,7 +198,7 @@ const Works = () => {
                                         </div>
                                     </div>
                                     <div className="lg:w-[60%] flex items-center">
-                                        <img className="w-full h-[85%]" src="../../public/motionmax.png" alt="" />
+                                        <img className="w-full h-[85%]" src={motionmax} alt="" />
                                     </div>
                                 </div>
                             </div>
@@ -211,7 +212,7 @@ const Works = () => {
                 {/* project 3 */}
                 <div className=" border p-6 shadow rounded-tl-3xl rounded-br-3xl lg:-skew-y-6 hover:skew-y-0 transition-transform duration-1000 hover:scale-105">
                     <div className=" w-full">
-                        <img className="lg:h-[260px]" src="../../public/TravelWish.png" alt="" />
+                        <img className="lg:h-[260px]" src={TravelWish} alt="" />
                     </div>
                     <div>
                         <h1 className="text-xl md:text-2xl font-bold mt-4 mb-1">TravelWise</h1>
@@ -282,7 +283,7 @@ const Works = () => {
                                         </div>
                                     </div>
                                     <div className="flex items-center lg:w-[50%]">
-                                        <img className="w-full h-full " src="../../public/TravelWish.png" alt="" />
+                                        <img className="w-full h-full " src={TravelWish} alt="" />
                                     </div>
                                 </div>
                             </div>

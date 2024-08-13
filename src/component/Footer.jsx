@@ -1,11 +1,11 @@
-import React from 'react';
 import { Link } from 'react-scroll';
+import logo from "../../public/protfolio logo .jpg";
 
 const Footer = () => {
     return (
         <div className='flex justify-center items-center py-16 bg-[#2A1454] text-white'>
             <div className='space-y-6'>
-                <img className='h-14 w-14 mx-auto rounded-full' src="../../public/protfolio logo .jpg" alt="" />
+                <img className='h-14 w-14 mx-auto rounded-full' src={logo} alt="" />
                 <ul className='flex gap-3 md:gap-6 '>
                     <Link className='text-sm md:text-base font-semibold md:font-bold' to='services' smooth={true} duration={500} spy={true}>Services.</Link>
                     <Link className='text-sm md:text-base font-semibold md:font-bold' to='works' smooth={true} duration={500} spy={true}>Works.</Link>

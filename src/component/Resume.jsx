@@ -1,16 +1,8 @@
 import { FaGraduationCap } from 'react-icons/fa';
 import { SiCompilerexplorer } from 'react-icons/si';
 import 'aos/dist/aos.css'; 
-import AOS from 'aos'; 
-import { useEffect } from 'react';
 
 const Resume = () => {
-
-    useEffect(() => {
-        AOS.init({
-          duration: 2000,
-        });
-      }, []);
 
     return (
         <div className='container mx-auto flex flex-col md:flex-row gap-10 py-28'>

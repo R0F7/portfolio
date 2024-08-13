@@ -1,17 +1,10 @@
 import { FaDiscord, FaFacebookF, FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { MdOutlineFileDownload } from "react-icons/md";
 import { Typewriter } from "react-simple-typewriter";
-import 'aos/dist/aos.css'; // Import AOS CSS
-import AOS from 'aos'; // Import AOS
-import { useEffect } from "react";
+import 'aos/dist/aos.css';
+import meImage from '../../public/me.jpg';
 
 const Banner = () => {
-
-    useEffect(() => {
-        AOS.init({
-            duration: 1000, // Duration of the animations in milliseconds
-        });
-    }, []);
 
     return (
         <div className="container mx-auto pt-32 pb-14 lg:pt-44 lg:pb-24" id="home">
@@ -66,11 +59,11 @@ const Banner = () => {
                 </div>
                 {/* image */}
                 <div className="w-1/2 hidden md:flex justify-end lg:justify-center" data-aos="zoom-in">
-                    <img className="w-[300px] lg:w-[470px] lg:h-[506px] rounded-2xl rotate-[4.29deg] hover:rotate-0 transition-transform duration-500 hover:border-2 hover:shadow-md border-[rgb(135,80,247)]" src="../../public/me.jpg" alt="" />
+                    <img className="w-[300px] lg:w-[470px] lg:h-[506px] rounded-2xl rotate-[4.29deg] hover:rotate-0 transition-transform duration-500 hover:border-2 hover:shadow-md border-[rgb(135,80,247)]" src={meImage} alt="" />
                 </div>
             </div>
 
-            <div className="grid grid-cols-2 gap-y-5 lg:gap-x-0 lg:grid-cols-4 mt-10 md:mt-20 md:w-[550px] lg:w-full mx-auto ml-10 md:ml-0 " data-aos="fade-up" data-aos-duration="2000">
+            <div className="grid grid-cols-2 gap-y-5 lg:gap-x-0 lg:grid-cols-4 mt-10 md:mt-20 md:w-[550px] lg:w-full mx-auto pl-10 md:pl-0" data-aos="fade-up" data-aos-duration="2000">
                 <div className="flex flex-col md:flex-row md:items-center gap-3">
                     <h4 className="text-5xl md:text-6xl font-bold text-[#8750F7]">1</h4>
                     <h4 className="text-[#8750F7] font-medium">Years of <br /> Experience</h4>

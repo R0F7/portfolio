@@ -35,7 +35,7 @@ const Banner = () => {
 
                         {/* mobile image */}
                         <div className="flex justify-center lg:justify-center my-10 md:hidden" data-aos="zoom-in">
-                            <img className="w-[250px] h-[280px] rounded-2xl rotate-[4.29deg] hover:rotate-0 transition-transform duration-500 hover:border-2 hover:shadow-md border-[rgb(135,80,247)]" src="../../public/me.jpg" alt="" />
+                            <img className="w-[250px] h-[280px] rounded-2xl rotate-[4.29deg] hover:rotate-0 transition-transform duration-500 hover:border-2 hover:shadow-md border-[rgb(135,80,247)]" src={meImage} alt="" />
                         </div>
 
                         <p className="wf lg:max-w-[550px] w-full lg:text-xl text-[rgb(20,12,28)] ext-[#1C102B] font-light">I am a skilled developer in JavaScript, React, Express, Node.js, and MongoDB, aiming to become a proficient full-stack developer.</p>

@@ -2,6 +2,7 @@ import { useState } from "react";
 import { CgClose } from "react-icons/cg";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { Link } from "react-scroll";
+import logo from '../../public/portfolio_logo 1.png';
 
 const Navbar = () => {
     const [toggle, setToggle] = useState(false);
@@ -29,7 +30,7 @@ const Navbar = () => {
                 <div className="flex gap-6 items-center">
                     {/* logo */}
                     <div className="hidden md:block">
-                        <img className="w-16" src="../../public/portfolio_logo 1.png" alt="" />
+                        <img className="w-16" src={logo} alt="" />
                     </div>
 
                     {/* Hamburger menu */}

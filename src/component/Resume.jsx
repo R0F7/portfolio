@@ -20,7 +20,7 @@ const Resume = () => {
                     <div className={`bg-white p-6 rounded-xl resume-container`}  data-aos="fade-up" data-aos-duration="2000">
                         <h6 className={` font-bold text-lg text-[#7746DA] resume-date`}>2021 - 2026</h6>
                         <h4 className='font-bold text-xl my-0.5'>Bachelor of Science</h4>
-                        <h6 className=''>Govt.Shah Sultan College</h6>
+                        <h6 className=''>Govt. Shah Sultan College</h6>
                     </div>
                     <div className={`bg-white p-6 rounded-xl resume-container`}  data-aos="fade-up" data-aos-duration="2000">
                         <h6 className={`font-bold text-lg text-[#7746DA] resume-date`}>2023 - 2024</h6>

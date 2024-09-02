@@ -2,7 +2,7 @@ import { FaDiscord, FaFacebookF, FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { MdOutlineFileDownload } from "react-icons/md";
 import { Typewriter } from "react-simple-typewriter";
 import 'aos/dist/aos.css';
-import meImage from '../../public/me.jpg';
+import meImage from '../../public/me x4.0.jpg';
 
 const Banner = () => {
 
@@ -49,7 +49,7 @@ const Banner = () => {
                             </div>
                             {/* <span ><FaFacebookF className="w-10 h-10 border text-[rgb(135,80,247)] border-[rgb(135,80,247)] p-2.5 rounded-full hover:bg-[rgb(135,80,247)] hover:text-white origin- duration-1000 ease-in" /></span> */}
                             <div className="space-x-4 mt-3.5 md:mt-0">
-                                <a href="https://web.facebook.com/?_rdc=1&_rdr" className="social-btn"><FaFacebookF /></a>
+                                <a href="https://web.facebook.com/moner.thikana.9026" className="social-btn"><FaFacebookF /></a>
                                 <a href="https://www.linkedin.com/in/md-rakibul-075r" className="social-btn"><FaLinkedinIn /></a>
                                 <a href="https://github.com/R0F7" className="social-btn"><FaGithub /></a>
                                 <a href="https://discord.com/channels/1247605305525670042/1247605306008141866" className="social-btn"><FaDiscord /></a>
